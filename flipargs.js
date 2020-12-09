@@ -1,3 +1,8 @@
+/**
+ * 
+ * Create a function that invokes func with arguments  reversed 
+ */
+
 function flipArgs(func){
     return function (...args){
         return func(args.reverse())

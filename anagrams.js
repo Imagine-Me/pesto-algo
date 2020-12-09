@@ -1,3 +1,10 @@
+/**
+ * 
+ * Write a method which given a string , returns a valid number of anagrams in it
+ */
+
+
+
 function countingAnagrams(string) {
     if (string === undefined)
         throw new Error("Provide a string")

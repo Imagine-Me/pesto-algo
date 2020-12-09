@@ -1,3 +1,10 @@
+/**
+ * 
+ *  Given a positive number n, returns the sum of odd fibonacci that less than
+ *  or equal to than number. First number of Fibonacci series is 1 and 1.
+ */
+
+
 function sumFib(n) {
     const fib = [1, 1];
     if (n <= 0)
